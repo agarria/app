@@ -1,0 +1,631 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+	<div class="ipad-container">
+		<div class="content">
+			<nav>
+				<a class="nav-return">
+					<div class="action">
+						<ion-icon name="arrow-back-outline"></ion-icon>
+					</div>
+				</a>
+				<span class="page-name">Pedidos Programados<br>Pendientes de Armado</span>
+				<a class="nav-menu">
+					<div class="action">
+						<ion-icon name="grid-outline"></ion-icon>
+					</div>
+				</a>
+			</nav>
+			<main>
+				<div class="actions actions-date">
+					<div class="filter">
+						<select>
+							<option value="" disabled>Escoger</option>
+							<option value="" selected>Programados</option>
+							<option value="">Sin Programar</option>
+							<option value="">Otros</option>
+						</select>
+					</div>
+					<div class="programe">
+						<input type="date" name="programe-date">
+					</div>
+					<a class="look">Ver Pedidos</a>
+					<div class="search">
+						<input type="text" name="search" placeholder="Buscar...">
+					</div>
+				</div>
+				<span class="title"><ion-icon name="file-tray-stacked-outline"></ion-icon>Pedidos</span>
+				<table>
+					<!--
+					<thead>
+						<tr>
+							<th>Especial</th>
+							<th>A Way</th>
+						</tr>
+					</thead>
+					-->
+					<tbody>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-up-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="box" colspan="8">
+								<div class="extra">
+									<div class="info">
+										<label class="info-name">Detalle del Pedido 666</label>
+										<div class="selection first-filter">
+											<span class="selection-name">Distribuidora:</span>
+											<select>
+												<option value="" disabled>Escoger</option>
+												<option value="" selected>Agencia A</option>
+												<option value="">Agencia B</option>
+												<option value="">Agencia C</option>
+											</select>
+										</div>
+										<div class="selection second-filter">
+											<span class="selection-name">Bodega:</span>
+											<select>
+												<option value="" disabled>Escoger</option>
+												<option value="">Bodega A</option>
+												<option value="" selected>Bodega B</option>
+												<option value="">Bodega C</option>
+											</select>
+										</div>
+										<table>
+											<thead>
+												<tr>
+													<th>Modelo</th>
+													<th>Color</th>
+													<th>Anio</th>
+													<th>Cantidad Solicitada</th>
+													<th>Cantidad Actual</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>YBNSD3</td>
+													<td>Blanco</td>
+													<td>2020</td>
+													<td>10</td>
+													<td>50</td>
+												</tr>
+												<tr>
+													<td>YBNSD3</td>
+													<td>Blanco</td>
+													<td>2020</td>
+													<td>10</td>
+													<td>50</td>
+												</tr>
+												<tr>
+													<td>YBNSD3</td>
+													<td>Blanco</td>
+													<td>2020</td>
+													<td>10</td>
+													<td>50</td>
+												</tr>
+												<tr>
+													<td>YBNSD3</td>
+													<td>Blanco</td>
+													<td>2020</td>
+													<td>10</td>
+													<td>50</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="switch" href="">
+									<ion-icon name="toggle-outline"></ion-icon>
+								</a>
+							</td>
+							<td>
+								<a class="more" href="">
+									<ion-icon name="chevron-down-outline"></ion-icon>
+								</a>
+							</td>
+							<td>Pedido 666</td>
+							<td>
+								<label class="badge">Bodega SAP 1</label>
+							</td>
+							<td>Dist SAP 3</td>
+							<td>
+								<input class="date" type="date" name="date">
+							</td>
+							<td>
+								<a class="save" href="">Guardar</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</main>
+		</div>
+	</div>
+</body>
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</html>
