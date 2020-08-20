@@ -1,0 +1,508 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="robots" content="index, follow">
+    <meta name="autor" content="Alex García">
+    <meta name="description" content="iPad app para administración de ordenes.">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Equipos Rechazados por PDI</title>
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="iPad app para administración de ordenes.">
+    <meta property="og:image" content="img/thumbnail.png">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+	<div class="ipad-container">
+		<div class="content">
+			<nav>
+				<a class="nav-return">
+					<div class="action">
+						<ion-icon name="arrow-back-outline"></ion-icon>
+					</div>
+				</a>
+				<span class="page-name">Equipos Rechazados por PDI</span>
+				<a class="nav-menu">
+					<div class="action">
+						<ion-icon name="grid-outline"></ion-icon>
+					</div>
+				</a>
+			</nav>
+			<main>
+				<div class="actions actions-date">
+					<div class="filter">
+						<select>
+							<option value="" disabled>Escoger</option>
+							<option value="" selected>Programados</option>
+							<option value="">Sin Programar</option>
+							<option value="">Otros</option>
+						</select>
+					</div>
+					<div class="programe">
+						<input type="date" name="programe-date">
+					</div>
+					<a class="look">Ver Pedidos</a>
+					<div class="search">
+						<input type="text" name="search" placeholder="Buscar...">
+					</div>
+				</div>
+				<table class="product-table">
+					<thead>
+						<tr>
+							<th></th>
+							<th></th>
+							<th>Chassis</th>
+							<th>Ensamblador</th>
+							<th>Empresa</th>
+							<th></th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<td>
+								<label class="product-name">FNZ1500</label>
+							</td>
+						</tr>
+						<tr>
+							<td class="product-declined">
+								<span class="product-status">
+									<ion-icon name="close-outline"></ion-icon>
+								</span>
+							</td>
+							<td>
+								<div class="product-description">
+									<span class="product-color">Negro con franjas multicolor</span>
+									<span class="product-actions">Pedido STO: 4060<br>Especial: Si | A. Way: No</span>
+								</div>
+							</td>
+							<td>
+								<input class="product-input" type="text" name="product-code" value="152516">
+							</td>
+							<td>
+								<select class="product-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>Juan Rojas</option>
+									<option value="">Pedro Gomez</option>
+									<option value="">Roberte Gutierrez</option>
+									<option value="">Luis Torres</option>
+								</select>
+							</td>
+							<td>
+								<div class="element-container">
+									<label class="product-company">Solucersa</label>
+								</div>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save save-pdi" href="">PDI</a>
+								</div>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save" href=""><ion-icon name="save-outline"></ion-icon></a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="product-declined">
+								<span class="product-status">
+									<ion-icon name="close-outline"></ion-icon>
+								</span>
+							</td>
+							<td>
+								<div class="product-description">
+									<span class="product-color">Negro con franjas multicolor</span>
+									<span class="product-actions">Pedido STO: 4060<br>Especial: Si | A. Way: No</span>
+								</div>
+							</td>
+							<td>
+								<input class="product-input" type="text" name="product-code" value="152516">
+							</td>
+							<td>
+								<select class="product-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>Juan Rojas</option>
+									<option value="">Pedro Gomez</option>
+									<option value="">Roberte Gutierrez</option>
+									<option value="">Luis Torres</option>
+								</select>
+							</td>
+							<td>
+								<div class="element-container">
+									<label class="product-company">Solucersa</label>
+								</div>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save save-pdi" href="">PDI</a>
+								</div>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save" href=""><ion-icon name="save-outline"></ion-icon></a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<label class="product-name">XA125R</label>
+							</td>
+						</tr>
+						<tr>
+							<td class="product-declined">
+								<span class="product-status">
+									<ion-icon name="close-outline"></ion-icon>
+								</span>
+							</td>
+							<td>
+								<div class="product-description">
+									<span class="product-color">Negro con franjas multicolor</span>
+									<span class="product-actions">Pedido STO: 4060<br>Especial: Si | A. Way: No</span>
+								</div>
+							</td>
+							<td>
+								<input class="product-input" type="text" name="product-code" value="152516">
+							</td>
+							<td>
+								<select class="product-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>Juan Rojas</option>
+									<option value="">Pedro Gomez</option>
+									<option value="">Roberte Gutierrez</option>
+									<option value="">Luis Torres</option>
+								</select>
+							</td>
+							<td>
+								<select class="company-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>CANELLA</option>
+									<option value="">SOLUCERSA</option>
+								</select>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save save-pdi" href="">PDI</a>
+								</div>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save" href=""><ion-icon name="save-outline"></ion-icon></a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="product-declined">
+								<span class="product-status">
+									<ion-icon name="close-outline"></ion-icon>
+								</span>
+							</td>
+							<td>
+								<div class="product-description">
+									<span class="product-color">Negro con franjas multicolor</span>
+									<span class="product-actions">Pedido STO: 4060<br>Especial: Si | A. Way: No</span>
+								</div>
+							</td>
+							<td>
+								<input class="product-input" type="text" name="product-code" value="152516">
+							</td>
+							<td>
+								<select class="product-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>Juan Rojas</option>
+									<option value="">Pedro Gomez</option>
+									<option value="">Roberte Gutierrez</option>
+									<option value="">Luis Torres</option>
+								</select>
+							</td>
+							<td>
+								<select class="company-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>CANELLA</option>
+									<option value="">SOLUCERSA</option>
+								</select>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save save-pdi" href="">PDI</a>
+								</div>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save" href=""><ion-icon name="save-outline"></ion-icon></a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="product-declined">
+								<span class="product-status">
+									<ion-icon name="close-outline"></ion-icon>
+								</span>
+							</td>
+							<td>
+								<div class="product-description">
+									<span class="product-color">Negro con franjas multicolor</span>
+									<span class="product-actions">Pedido STO: 4060<br>Especial: Si | A. Way: No</span>
+								</div>
+							</td>
+							<td>
+								<input class="product-input" type="text" name="product-code" value="152516">
+							</td>
+							<td>
+								<select class="product-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>Juan Rojas</option>
+									<option value="">Pedro Gomez</option>
+									<option value="">Roberte Gutierrez</option>
+									<option value="">Luis Torres</option>
+								</select>
+							</td>
+							<td>
+								<select class="company-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>CANELLA</option>
+									<option value="">SOLUCERSA</option>
+								</select>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save save-pdi" href="">PDI</a>
+								</div>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save" href=""><ion-icon name="save-outline"></ion-icon></a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="product-declined">
+								<span class="product-status">
+									<ion-icon name="close-outline"></ion-icon>
+								</span>
+							</td>
+							<td>
+								<div class="product-description">
+									<span class="product-color">Negro con franjas multicolor</span>
+									<span class="product-actions">Pedido STO: 4060<br>Especial: Si | A. Way: No</span>
+								</div>
+							</td>
+							<td>
+								<input class="product-input" type="text" name="product-code" value="152516">
+							</td>
+							<td>
+								<select class="product-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>Juan Rojas</option>
+									<option value="">Pedro Gomez</option>
+									<option value="">Roberte Gutierrez</option>
+									<option value="">Luis Torres</option>
+								</select>
+							</td>
+							<td>
+								<select class="company-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>CANELLA</option>
+									<option value="">SOLUCERSA</option>
+								</select>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save save-pdi" href="">PDI</a>
+								</div>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save" href=""><ion-icon name="save-outline"></ion-icon></a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<label class="product-name">YBR125ED</label>
+							</td>
+						</tr>
+						<tr>
+							<td class="product-declined">
+								<span class="product-status">
+									<ion-icon name="close-outline"></ion-icon>
+								</span>
+							</td>
+							<td>
+								<div class="product-description">
+									<span class="product-color">Negro con franjas multicolor</span>
+									<span class="product-actions">Pedido STO: 4060<br>Especial: Si | A. Way: No</span>
+								</div>
+							</td>
+							<td>
+								<input class="product-input" type="text" name="product-code" value="152516">
+							</td>
+							<td>
+								<select class="product-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>Juan Rojas</option>
+									<option value="">Pedro Gomez</option>
+									<option value="">Roberte Gutierrez</option>
+									<option value="">Luis Torres</option>
+								</select>
+							</td>
+							<td>
+								<select class="company-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>CANELLA</option>
+									<option value="">SOLUCERSA</option>
+								</select>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save save-pdi" href="">PDI</a>
+								</div>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save" href=""><ion-icon name="save-outline"></ion-icon></a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="product-declined">
+								<span class="product-status">
+									<ion-icon name="close-outline"></ion-icon>
+								</span>
+							</td>
+							<td>
+								<div class="product-description">
+									<span class="product-color">Negro con franjas multicolor</span>
+									<span class="product-actions">Pedido STO: 4060<br>Especial: Si | A. Way: No</span>
+								</div>
+							</td>
+							<td>
+								<input class="product-input" type="text" name="product-code" value="152516">
+							</td>
+							<td>
+								<select class="product-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>Juan Rojas</option>
+									<option value="">Pedro Gomez</option>
+									<option value="">Roberte Gutierrez</option>
+									<option value="">Luis Torres</option>
+								</select>
+							</td>
+							<td>
+								<select class="company-select">
+									<option value="" disabled>Escoger</option>
+									<option value="" selected>CANELLA</option>
+									<option value="">SOLUCERSA</option>
+								</select>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save save-pdi" href="">PDI</a>
+								</div>
+							</td>
+							<td>
+								<div class="element-container">
+									<a class="save" href=""><ion-icon name="save-outline"></ion-icon></a>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</main>
+			<div class="overlay">
+				<div class="modal">
+					<span class="modal-head">
+						<span class="modal-download">
+							<div class="modal-icon-action">
+								<ion-icon name="cloud-download-outline"></ion-icon>
+							</div>
+						</span>
+						<span class="modal-close">
+							<div class="modal-icon-action">
+								<ion-icon name="close-outline"></ion-icon>
+							</div>
+						</span>
+						<span class="modal-name">Chassis 13124 - XASD12<br>Rojo con franjas multicolor 2020</span>
+					</span>
+					<div class="modal-body">
+						<div class="question-container">
+							<div class="question-info">
+								<div class="question-name">Pregunta 1</div>
+								<span class="question-description">Descripción de la pregunta</span>
+							</div>
+							<div class="question-switch">
+								<span class="switch-option option-selected">Si</span>
+								<span class="switch-option">No</span>
+							</div>
+						</div>
+						<div class="question-container">
+							<div class="question-info">
+								<div class="question-name">Pregunta 2</div>
+								<span class="question-description">Descripción de la pregunta</span>
+							</div>
+							<div class="question-switch">
+								<span class="switch-option option-selected">Si</span>
+								<span class="switch-option">No</span>
+							</div>
+						</div>
+						<div class="question-container">
+							<div class="question-info">
+								<div class="question-name">Pregunta 3</div>
+								<span class="question-description">Descripción de la pregunta</span>
+							</div>
+							<div class="question-switch">
+								<span class="switch-option option-selected">Si</span>
+								<span class="switch-option">No</span>
+							</div>
+						</div>
+						<div class="question-container">
+							<div class="question-info">
+								<div class="question-name">Pregunta 4</div>
+								<span class="question-description">Descripción de la pregunta</span>
+							</div>
+							<div class="question-switch">
+								<span class="switch-option">Si</span>
+								<span class="switch-option option-selected">No</span>
+							</div>
+						</div>
+						<div class="question-container">
+							<div class="question-info">
+								<div class="question-name">Pregunta 5</div>
+								<span class="question-description">Descripción de la pregunta</span>
+							</div>
+							<div class="question-switch">
+								<span class="switch-option">Si</span>
+								<span class="switch-option option-selected">No</span>
+							</div>
+						</div>
+						<label class="modal-place">Bodega Destino: <span class="place-result">DS2515</span></label>
+						<div class="modal-comments">
+							<div class="question-name">Comentarios</div>
+							<textarea rows="4"></textarea>
+						</div>
+						<div class="modal-upload">
+							<label class="upload-path">imagen-5430.jpg</label>
+							<a class="upload-button">Subir Foto</a>
+						</div>
+						<div class="modal-form-action">
+							<div class="modal-icons">
+								<span class="modal-icon"><ion-icon name="logo-closed-captioning"></ion-icon></span>
+								<span class="modal-icon"><ion-icon name="logo-no-smoking"></ion-icon></span>
+								<span class="modal-icon"><ion-icon name="logo-markdown"></ion-icon></span>
+							</div>
+							<a class="modal-save">Guardar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</html>
