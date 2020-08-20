@@ -262,6 +262,14 @@ td:nth-child(3) {
 	text-decoration: none;
 }
 
+.save-pdi {
+	background: #FFA800;
+}
+
+.save ion-icon {
+	font-size: 16px;
+}
+
 .badge {
 	position: relative;
 	display: block;
@@ -560,4 +568,363 @@ td:nth-child(3) {
 .selection select:focus,
 .selection select:active {
 	outline: 0;
+}
+
+.product-name {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	font-size: 26px;
+	font-weight: 600;
+	cursor: pointer;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.product-description {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+.product-color {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	font-weight: 600;
+	cursor: pointer;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.product-actions {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	color: #239a7f;
+	font-size: 12px;
+	font-weight: 500;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.product-table th:nth-child(1),
+.product-table td:nth-child(1) {
+	width: 30px !important;
+	padding: 0;
+}
+
+.product-table th:nth-child(2),
+.product-table td:nth-child(2) {
+	width: 180px !important;
+}
+
+.product-table td:nth-child(3) {
+	width: 80px !important;
+}
+
+.product-table td:nth-child(4) {
+	width: 120px;
+}
+
+.product-table td:nth-child(5) {
+	width: auto;
+}
+
+.product-table td:nth-child(6),
+.product-table td:nth-child(7) {
+	width: 50px;
+}
+
+.product-table td:nth-child(7) {
+	cursor: pointer;
+}
+
+.product-table td .save {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 0 10px;
+}
+
+.product-input {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	margin: 0;
+	background: transparent;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid #ECF0F3;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-input:hover,
+.product-input:focus,
+.product-input:hover {
+	outline: 0;
+}
+
+.product-select {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	height: 35px;
+	line-height: 30px;
+	padding: 0 10px;
+	margin: 0;
+	background: transparent;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid #ECF0F3;
+    border-radius: 5px;
+}
+
+.product-select:hover,
+.product-select:focus,
+.product-select:hover {
+	outline: 0;
+}
+
+.company-select {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	height: 35px;
+	line-height: 30px;
+	padding: 0 10px;
+	margin: 0;
+	background: transparent;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid #ECF0F3;
+    border-radius: 5px;
+}
+
+.company-select:hover,
+.company-select:focus,
+.company-select:active {
+	outline: 0;
+}
+
+.product-company {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	width: auto;
+	height: auto;
+	padding: 6px;
+	margin: 0 auto;
+	color: #239a7f;
+	border: 1px solid #239a7f;
+	border-radius: 5px;
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.element-container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+.product-status {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+.product-construct {
+    color: #1BC5BD;
+    background: #C9F7F5;
+}
+
+.product-waiting {
+	color: #FFA800;
+    background: #FFF4DE;
+}
+
+.product-complete {
+    color: #212121;
+    background: #D6D6E0;
+}
+
+.product-declined {
+    color: #F64E60;
+    background: #FFE2E5;
+}
+
+.product-more {
+	background: #ECF0F3;
+}
+
+.product-info {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: );
+	margin: 0;
+	font-size: 16px;
+}
+
+.product-menu {
+	width: 100% !important;
+	padding: 12px 6px !important;
+	background: #ECF0F3;
+}
+
+.pp-container {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0 0 5% 0;
+}
+
+.pp-container:last-child {
+	margin: 0;
+}
+
+.product-info-name {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0 0 3% 0;
+	font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.product-info-text {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0 0 6px 0;
+	font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.product-info-text:last-child {
+	margin: 0;
+}
+
+.extra-info-text {
+	text-transform: uppercase;
+}
+
+.product-result {
+	cursor: pointer;
+    color: #239a7f;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.product-change {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 5% 0 0 0;
+}
+
+.change-button {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	padding: 0;
+	margin: 0 20px 0 0;
+	color: #fff;
+	background: #000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.change-button:hover,
+.change-button:focus,
+.change-button:active {
+	outline: 0;
+}
+
+.change-button:last-child {
+	margin: 0;
+}
+
+.change-button ion-icon {
+	font-size: 18px;
+	margin: 0 5px 0 0;
+}
+
+.change-pause {
+	color: #F64E60;
+    background: #FFE2E5;
+    border: 1px solid #F64E60;
+}
+
+.change-complete {
+	color: #212121;
+    background: #D6D6E0;
+    border: 1px solid #212121;
+}
+
+.change-play {
+    color: #1BC5BD;
+    background: #C9F7F5;
+    border: 1px solid #1BC5BD;
 }
